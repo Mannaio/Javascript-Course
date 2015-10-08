@@ -1,6 +1,6 @@
 ---
-layout: components
-title: Components
+layout: eloquents
+title: Eloquents
 bodyclass: components
 include_prefix: ../
 categories:
