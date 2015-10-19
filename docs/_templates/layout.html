@@ -80,15 +80,15 @@
   <div class="docs-layout mdl-layout mdl-js-layout">
     <header class="docs-layout-header mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="docs-layout-title mdl-layout-title"><a href="{{page.include_prefix}}">Javascript<br>Crash<br>Course</a></span>
+        <span class="docs-layout-title mdl-layout-title"><a href="{{page.include_prefix}}">Javascript Crash Course</a></span>
       </div>
       <div class="docs-navigation__container">
         <nav class="docs-navigation mdl-navigation">
-          <a href="{{page.include_prefix}}index.html" class="mdl-navigation__link about">About</a>
+          <a href="{{page.include_prefix}}index.html" class="mdl-navigation__link about">Introduction</a>
           <a href="{{page.include_prefix}}eloquents/index.html" class="mdl-navigation__link components">Eloquent Js</a>
           <div class="spacer"></div>
-          <a href="https://github.com/google/material-design-lite" class="mdl-navigation__link mdl-navigation__link--icon github"><i class="material-icons">link</i><span>GitHub</span></a>
-          <a href="{{page.include_prefix}}started/index.html#download" class="mdl-navigation__link mdl-navigation__link--icon download">
+          <a href="https://github.com/Mannaio/javascript-course" class="mdl-navigation__link mdl-navigation__link--icon github"><i class="material-icons">link</i><span>GitHub</span></a>
+          <a href="https://github.com/Mannaio/javascript-course" class="mdl-navigation__link mdl-navigation__link--icon download">
             <i class="material-icons">&#xE2C4;</i><span>Download</span>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--mini-fab mdl-color--lime-A200">
               <i class="material-icons">&#xE2C4;</i>
@@ -101,14 +101,11 @@
     </header>
     <main class="docs-layout-content mdl-layout__content mdl-color-text--grey-600">
       <div class="content mdl-grid mdl-grid--no-spacing" id="content">
-        <div class="subpageheader mdl-cell--12-col">{{page.title}}</div>
+        <div class="subpageheader mdl-cell--12-col"><h1>{{page.title}}</h1></div>
         {% block content %}
           {{content|safe}}
         {% endblock %}
       </div>
-      <section class="docs-text-styling download mdl-color--grey-800">
-        <a href="{{page.include_prefix}}started/index.html#download" class="mdl-color-text--grey-50">Download Kit</a>
-      </section>
       <footer class="docs-text-styling docs-footer mdl-mini-footer mdl-color--grey-900">
         <ul>
           <li class="mdl-mini-footer--social-btn">
