@@ -429,7 +429,6 @@ body:not(.about) .mdl-navigation__link.download > button {
 .docs-layout-content p {
   font-size: 13px;
   margin-bottom: 32px;
-  max-width: 640px;
 
   /* Override */
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -446,7 +445,6 @@ body:not(.about) .mdl-navigation__link.download > button {
 
 
 .docs-text-styling h2 {
-  padding-top: 48px;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;

@@ -87,7 +87,6 @@ mdl-components-dd {
   font-weight: normal;
   color: rgba(0, 0, 0, 0.66);
   position: relative;
-  padding-left: 72px;
   min-height: 48px;
   display: table;
   line-height: 48px;
@@ -156,7 +155,6 @@ mdl-components-dd {
 }
 .docs-readme {
   width: 100%;
-  max-width: 640px;
   margin: 0 auto;
 }
 

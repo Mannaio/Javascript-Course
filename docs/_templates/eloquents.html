@@ -10,9 +10,6 @@
   <aside class="mdl-components__nav docs-text-styling mdl-shadow--4dp">
     {% for category in page.categories %}
     <a href="#{{ category.name }}-section" class="mdl-components__link mdl-component {{ category.name }}">
-      <div class="mdl-components__link-image"
-           style="background-image: url('{{page.include_prefix}}assets/comp_{{ category.name }}.png')">
-      </div>
       <span class="mdl-components__link-text">{{ category.title }}</span>
     </a>
     {%- endfor %}
@@ -34,7 +31,7 @@
     {% for category in page.categories -%}
     <section id="{{ category.name }}-section" class="mdl-components__page mdl-grid">
       <div class="mdl-cell mdl-cell--12-col">
-        <div class="docs-text-styling component-title">
+        <div class="docs-text-styling docs-readme">
           <h3>{{ category.title }}</h3>
           <p>{{ category.description }}</p>
         </div>
